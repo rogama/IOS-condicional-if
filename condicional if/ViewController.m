@@ -25,5 +25,23 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)viewWillAppear:(BOOL)animated{
+    BOOL correcto = NO;
+    
+    if (correcto) {
+        NSLog(@"correcto");
+    }else{
+        NSLog(@"No es correcto");
+    }
+    
+    int numero = 2;
+    if (numero < 2) {
+        NSLog(@"Numero menor que 2");
+    }else if (numero>2){
+        NSLog(@"Numero mayor que 2");
+    }else{
+        NSLog(@"Numero es igual a 2");
+    }
+}
 
 @end
